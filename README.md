@@ -1,6 +1,8 @@
 # vrp_ladderhud
 **Credits: Marmota#2533**
 
+**My discord:** https://discord.gg/DcqwPkD
+
 **Screenshots:**
 
 
