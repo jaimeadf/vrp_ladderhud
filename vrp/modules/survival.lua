@@ -171,6 +171,7 @@ AddEventHandler("vRP:playerSpawn",function(user_id, source, first_spawn)
   -- set friendly fire
   vRPclient._setFriendlyFire(source,cfg.pvp)
 
+  TriggerClientEvent("vrp_ladderhud:updateBasics",source, data.hunger, data.thirst)
   --vRPclient._setProgressBar(source,"vRP:hunger","minimap",htxt,255,153,0,0)
   --vRPclient._setProgressBar(source,"vRP:thirst","minimap",ttxt,0,125,255,0)
   vRP.setHunger(user_id, data.hunger)
